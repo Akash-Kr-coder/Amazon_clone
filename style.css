@@ -54,6 +54,7 @@
     width: 620px;
     height: 40px;
     border-radius: 4px;
+    border: border-box;
 }
 .search-select {
     background-color: #f3f3f3;
@@ -116,4 +117,33 @@
 }
 .nav-cart i {
      font-size: 30px;
+}
+
+/* PANEL */
+
+.panel {
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 10px;
+}
+.panel-ops {
+    width: 80%;
+    display: flex;
+    gap: 15px;
+    font-size: 0.85rem;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.panel-deals {
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.bottom-border:hover {
+    border-bottom: 2px solid orange;
 }
