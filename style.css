@@ -136,7 +136,7 @@
     gap: 15px;
     font-size: 0.85rem;
 }
-a {
+.panel-ops a {
     text-decoration: none;
     color: white;
 }
@@ -144,6 +144,37 @@ a {
     font-size: 0.9rem;
     font-weight: 700;
 }
+.panel-deals a {
+    text-decoration: none;
+    color: white;
+}
 .bottom-border:hover {
     border-bottom: 2px solid orange;
+}
+
+/** Hero-Section **/
+
+.hero-section {
+    height: 380px;
+    background-image: url(main.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.hero-message {
+    height: 40px;
+    width: 95%;
+    background-color: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.90rem;
+    font-weight: 550;
+    margin-bottom: 50px;
+}
+.hero-message a {
+    text-decoration: none;
+    color: ;
 }
