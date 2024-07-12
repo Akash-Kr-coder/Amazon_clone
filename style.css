@@ -164,7 +164,7 @@
 }
 .hero-message {
     height: 40px;
-    width: 95%;
+    width: 97%;
     background-color: white;
     color: black;
     display: flex;
@@ -176,6 +176,7 @@
 }
 .hero-message a {
     text-decoration: none;
+    color: #007185;
 }
 .hero-message a:hover {
     color: rgb(255, 119, 0);
@@ -185,14 +186,16 @@
 /** Shop-Section **/
 
 .shop-section {
-    height: 600px;
+    /* height: 600px; */
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     background-color: rgb(196, 228, 238);
 }
 .box {
     height: 400px;
     width: 23%;
+    margin: 10px 0 10px ;
     border: 2px solid black;
     background-color: rgb(247, 243, 243);
 }
@@ -248,23 +251,9 @@
     width: 100%;
     height: 100%;
     border: 1px solid black;
-}
-.img_01 {
-    background-image: url(mouse.jpg);
     background-size: cover;
 }
-.img_02 {
-    background-image: url(keybord.jpg);
-    background-size: cover;
-}
-.img_03 {
-    background-image: url(headphone.jpg);
-    background-size: cover;
-}
-.img_04 {
-    background-image: url(gaming_chair.jpg);
-    background-size: cover;
-}
+
 
 /** Tail of Product box **/
 
@@ -285,6 +274,7 @@
     align-items: flex-start;
     padding-left: 15px;
     font-size: 0.85rem;
+    color: #007185;
 }
 .tail-link:hover {
     color: rgb(255, 119, 0);
@@ -293,19 +283,18 @@
 
 /* Second Product Box */
 
-.img_05 {
-    background-image: url(hard_drives.jpg);
-    background-size: cover;
+
+/* Product BOX 3 */
+
+.container {
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    padding: 0 0 20px 0;
 }
-.img_06 {
-    background-image: url(laptop.jpg);
+.box-img {
+    height: 100%;
+    width: 90%;
     background-size: cover;
-}
-.img_07 {
-    background-image: url(cpu.jpg);
-    background-size: cover;
-}
-.img_08 {
-    background-image: url(pc_accessories.jpg);
-    background-size: cover;
+    border: 1px solid black;
 }
