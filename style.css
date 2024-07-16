@@ -298,3 +298,47 @@
     background-size: cover;
     border: 1px solid black;
 }
+
+/** footer **/
+
+/** footer panel 1 **/
+
+.foot-panel1 {
+    background-color: #37475a;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+
+/** Foot panel 2 **/
+
+
+.foot-panel2 {
+    background-color: #222f3d;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.inner-panel {
+    background-color: #222f3d;
+    color: white;
+    height: 70%;
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+.inner-panel ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    text-decoration: none;
+    color: white;
+}
+.inner-panel ul p {
+    font-weight: 600;
+}
