@@ -337,8 +337,74 @@
     font-size: 0.85rem;
     margin-top: 10px;
     text-decoration: none;
-    color: white;
+    color: #D3CFC9;
 }
 .inner-panel ul p {
     font-weight: 600;
+}
+
+
+/** Foot panel 3 **/
+
+.foot-panel3 {
+    border-top: 1px solid #77808c;
+    background-color: #222f3d;
+    color: white;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.language {
+    background-color: #222f3d;
+    color: white;
+    height: 70px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo {
+    background-image: url("amazon-logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 130px;
+}
+.EUU {
+    display: flex;
+}
+.lang-choose {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 100px;
+    border: 1px solid #77808c;
+    border-radius: 4px;
+}
+.globe-logo {
+    margin-right: 3px;
+    font-size: 0.85rem;
+}
+.choose select {
+    border: none;
+    background-color: #222f3d;
+    color: #D3CFC9;
+}
+
+.same {
+    height: 30px;
+    border: 1px solid #77808c;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    color: #D3CFC9;
+}
+.dollar {
+    width: 150px;
+}
+.country {
+    width: 120px;
 }
