@@ -156,7 +156,7 @@
 
 .hero-section {
     height: 380px;
-    background-image: url(main.jpg);
+    background-image: url(images/main_image/main.jpg);
     background-size: cover;
     display: flex;
     align-items: flex-end;
