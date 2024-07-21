@@ -408,3 +408,25 @@
 .country {
     width: 120px;
 }
+
+
+/** Foot panel 4 **/
+
+.foot-panel4 {
+    background-color: rgb(15, 21, 27);
+    color: white;
+    height: 80px;
+    font-size: 0.7rem;
+    text-align: center;
+}
+.pages {
+    text-align: center;
+    padding-top: 25px;
+}
+.pages a {
+    color: white;
+    text-decoration: none;   
+}
+.copyright {
+    padding-top: 5px;
+}
